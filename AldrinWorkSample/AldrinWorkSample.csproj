@@ -257,7 +257,6 @@
     <Content Include="Images\me.png" />
     <Content Include="Images\mishka.png" />
     <Content Include="Images\sunflower.png" />
-    <Content Include="NewFile.txt" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
