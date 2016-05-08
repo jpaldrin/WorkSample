@@ -10,6 +10,7 @@ namespace AldrinWorkSample.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Link = TempData["ViewBagLink"];
             return View();
         }
 
@@ -19,7 +20,7 @@ namespace AldrinWorkSample.Controllers
 
             return View();
         }
-
+        [Authorize]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
