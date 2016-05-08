@@ -616,29 +616,10 @@ article {
 /*
  * Nav
    ========================================================================== */
-.border-top,
-.border-right,
-.border-bottom,
-.border-left {
-  position: fixed;
-  z-index: 10;
-  background: #000;
-}
-.border-top,
-.border-right,
-.border-left {
-  top: 0;
-}
-.border-top,
-.border-bottom {
-  height: 16px;
-  width: 100%;
-}
-.border-right,
-.border-left {
-  height: 200%;
-  width: 16px;
-}
+ 
+ 
+ 
+ 
 .border-top {
   -webkit-animation: border-top 0.3s;
   animation: border-top 0.3s;
@@ -827,16 +808,7 @@ nav a:hover {
 .js-hamburger-fix {
   display: inline-block;
 }
-.line-top,
-.line-mid,
-.line-bot {
-  height: 4px;
-  margin-bottom: 5px;
-  border-radius: 4px;
-  background: white;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
+  
 .js-line-top {
   -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
   transform: translate3d(0, 9px, 0) rotate(45deg);

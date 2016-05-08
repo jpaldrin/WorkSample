@@ -6,144 +6,81 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
+    <meta property="og:title" content="My Shared Article Title" />
+    <meta property="og:description" content="Description of shared article" />
+    <meta property="og:url" content="http://example.com/my_article.html" />
+    <meta property="og:image" content="http://example.com/foo.jpg" />
 
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
 
 </head>
 <body>
-    <div id="landing-page" class="landing-page">
-        <div class="vertical-align"></div>
-        <!--
-        -->
-        <div class="landing-wrap">
+    <div class="panel">
+        <div id="landing-page" class="landing-page">
+            <div class="vertical-align"></div>
             <!--
             -->
-            <img class="logo" src="~/Images/logo2.png">
-
-            <!--
-            -->
-            <div class="name-wrap">
+            <div class="landing-wrap">
                 <!--
                 -->
-                <h4 class="john">john aldrin</h4>
-                <!--
-                -->
-                @*<h4 class="aldrin"><span style="font-size: 3em;">.</span><small>net</small></h4>*@
+                <img class="logo" src="~/Images/logo2.png">
 
                 <!--
                 -->
-            </div>
-            <div class="city-wrap">
-                <h4 class="aldrin">Boston &infin; Los Angeles</h4>
-                <hr style="margin-left: 15%;" />
+                <div class="name-wrap">
+                    <!--
+                    -->
+                    <h4 class="john">john aldrin</h4>
+                    <!--
+                    -->
+                    @*<h4 class="aldrin"><span style="font-size: 3em;">.</span><small>net</small></h4>*@
+
+                    <!--
+                    -->
+                </div>
+                <div class="city-wrap hidden-sm hidden-xs">
+                    <h4 class="aldrin">Web Application Developer</h4>
+                    <hr style="margin-left: 15%;" />
 
 
-            </div>
-            <div class="button wrap" style="margin-left: 15%;">
-                <div class="btn btn-default" onclick="location.href='@Url.Action("ContactForm", "Home")'"><span style="font-size: 3em;" class="glyphicon glyphicon-envelope">  </span></div>
+                </div>
+
 
             </div>
             <!--
             -->
         </div>
     </div>
-    <nav class="menu">
-        <a href="#logos" class="js-menu-closer"><h3> </h3></a>
-        <a href="#article-one" class="menu-item">
-            <!--
-            -->
-            <div class="menu-img a"></div>
-            <!--
-            -->
-
-        </a>
-        <!--
-        -->
-        <a href="#article-two" class="menu-item">
-            <!--
-            -->
-            <div class="menu-img b"></div>
-            <!--
-            -->
-            <span class="menu-sub-title"> </span>
-        </a>
-        <!--
-        -->
-        <a href="#article-three" class="menu-item">
-            <!--
-            -->
-            <div class="menu-img c"></div>
-            <!--
-            -->
-            <span class="menu-sub-title"> </span>
-        </a>
-        <a href="#print" class="js-menu-closer">
-
-        </a>
-        <a href="#article-four" class="menu-item"><div class="menu-img d"></div><span class="menu-sub-title"> </span></a><a href="#article-five" class="menu-item"><div class="menu-img e"></div><span class="menu-sub-title"> </span></a><a href="#article-six" class="menu-item"><div class="menu-img f"></div><span class="menu-sub-title"> </span></a>
-        <a href="#web" class="js-menu-closer">
-            <h3> </h3>
-        </a>
-        <a href="#article-seven" class="menu-item"><div class="menu-img g"></div><span class="menu-sub-title">Cruisology</span></a><a href="#article-eight" class="menu-item"><div class="menu-img h"></div><span class="menu-sub-title"> </span></a><a href="#article-nine" class="menu-item"><div class="menu-img i"></div><span class="menu-sub-title"> </span></a>
-    </nav>
-    <nav class="border-top"></nav>
+ 
+   
     <nav class="border-right"></nav>
     <nav class="border-bottom"></nav>
     <nav class="border-left"></nav>
     <nav class="pagination-wrapper">
         <div class="vertical-align"></div>
-        <!--
-        -->
-        <nav class="pagination">
-            <!--
-                Set the position of the page here
-
-            -->
-            <a href="#article-one" class="pagination-dot pg-article-one"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-article-one-dot"></div></a>
-            <!--
-            -->
-            <a href="#article-two" class="pagination-dot pg-article-two"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-article-two-dot"></div></a>
-            <!--
-            -->
-            <a href="#article-three" class="pagination-dot pg-article-three"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-article-three-dot"></div></a>
-            <!--
-            -->
-            <a href="#article-four" class="pagination-dot pg-article-four"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-article-four-dot"></div></a>
-            <!--
-            -->
-            <a href="#article-five" class="pagination-dot pg-article-five"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-article-five-dot"></div></a>
-            <!--
-            -->
-            <a href="#article-six" class="pagination-dot pg-article-six"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-article-six-dot"></div></a>
-            <!--
-            -->
-            <a href="#article-seven" class="pagination-dot pg-article-seven"><span class="vertical-align"></span><div class="pagination-title">Cruisology</div><div class="pagination-dot-graphic pg-article-seven-dot"></div></a>
-            <!--
-            -->
-            <a href="#article-eight" class="pagination-dot pg-article-eight"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-article-eight-dot"></div></a>
-            <!--
-            -->
-            <a href="#article-nine" class="pagination-dot pg-article-nine"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-article-nine-dot"></div></a>
-            <!--
-            -->
-            <a href="#about-me" class="pagination-dot pg-about-me"><span class="vertical-align"></span><div class="pagination-title"> </div><div class="pagination-dot-graphic pg-about-me-dot"></div></a>
-        </nav>
-    </nav>
+         <div class="button wrap" style="margin-left: 15%;">
+                <div class="btn btn-default" onclick="location.href='@Url.Action("Home", "Home")'"><span style="font-size: 3em;" class="glyphicon glyphicon-home">  </span></div>
+            </div>
+                <br />
+            <div class="button wrap" style="margin-left: 15%;">
+                <div class="btn btn-default" onclick="location.href='@Url.Action("ContactForm", "Home")'"><span style="font-size: 3em;" class="glyphicon glyphicon-envelope">  </span></div>
+            </div>
+       </nav>
     <nav class="top-bar">
-        <nav class="hamburger">
-            <nav class="line-top"></nav>
-            <nav class="line-mid"></nav>
-            <nav class="line-bot"></nav>
-        </nav><nav class="nav-about-button">
+ 
             <div class="js-menu-closer">
-                <span>@Html.ActionLink("Home", "Index", "Home")</span>
-                <span>@Html.ActionLink("Contact", "ContactForm", "Home")</span>
-                @Html.Partial("_LoginPartial")
+             
+                <div class="button wrap" style="margin-left: 15%;">
+                    <div class="btn btn-default" onclick="location.href='@Url.Action("Home", "Home")'"><span style="font-size: 3em;" class="glyphicon glyphicon-home">  </span></div>
+               
+               
+                
+                    <div class="btn btn-default" onclick="location.href='@Url.Action("ContactForm", "Home")'"><span style="font-size: 3em;" class="glyphicon glyphicon-envelope">  </span></div>
+                </div>
             </div>
 
         </nav>
-    </nav>
+    
     <!--
     -->
     @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })

@@ -2,121 +2,109 @@
     ViewBag.Title = "Home Page";
 }
 
-<body>
-    <!-- logos --><section class="section-title logos">
-        <h3 class="section-title-h3" id="logos">Technology</h3>
-    </section>
-    <article id="article-one" class="article-one">
-        <span id="read-more"></span>
-        <div class="img-wrap">
-            <a href="#" data-featherlight="http://jtower.com/wp-content/uploads/2015/06/visual-studio-2013-logo.png"><img alt="Microsoft Visual Studio Certified Engineer" src="http://jtower.com/wp-content/uploads/2015/06/visual-studio-2013-logo.png"></a>
-        </div>
-        <div class="p-wrap">
-            <h2>Development</h2>
-            <hr>
-            <p>
-                .NET Developer is responsible for designing, developing and troubleshooting high performance and high availability web applications using ASP.NET Ajax, C#, CSHTML, CSS, JavaScript (AngularJS, KnockoutJS) jQuery technologies to meet the company’s strategic objectives. Rapid .NET and JavaScript development frameworks & best practices are adopted. In addition supporting and contributing to Developer Driven Agile/Scrum rapid development process.
-            </p>
-        </div>
-    </article>
-    <article id="article-two" class="article-two">
-        <div class="img-wrap">
-            <a href="#" data-featherlight="http://vschart.com/compare/angularjs/vs/knockout-framework">
-                <img alt="Angular JS" src="https://i0.wp.com/blog.erkobridee.com/wp-content/uploads/2012/07/angularjs-logo.png">
-            </a>
-        </div>
-        <div class="p-wrap">
-            <h2>WEB UI</h2>
-            <hr>
-            <p>
-                Both Angular and Knockout (with CrossroadsJS and RequireJS) are brilliant tools for building enterprise scale single page applications. My sample application looks and behaves identically in the two versions, and the development process was pretty smooth in both cases. I’d certainly be more than happy working with either of them.
+<div class="container">
+   
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+        <div class="col-xs-12 col-md-8">
+            <ul class="media-list">
+                <li class="media">
+                    <div class="media-left">
+                      
+                    </div>
 
-                There are a few differences between the two solutions, but they are fairly minor. Angular was more verbose in some cases (creating a component from a directive and a controller), but the Knockout version was more verbose in others (watching for model changes and getting data from the server). Angular is a fully integrated solution. Knockout lets you choose the best tools to solve your problems, but you have to integrate them yourself.
-                <span class="read-more">more...</span>
-            </p>
+                </li>
+            </ul>
+            <table class="text-warning">
+               <thead>
+                   <tr>
+                       <td>
+                           <h2>
+                               Work Samples
+                           </h2>
+                       </td>
+                   </tr>
+               </thead>
+                <tr>
+                    <td>
+                        <a href="/"><p>SQL, Asp Web Forms.</p></a>
+                    </td>
+                  
+                </tr>
+               <tr>
+                   <td>
+                       <a href="/"><p>SEO Page Generator</p></a>
+                   </td>
+                  
+               </tr>
+                <tr>
+                    <td>
+                        <a href="/"><p>Sample Parralex Page</p></a>
+                    </td>
+                  
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/"><p>Sample Web Store Landing Page</p></a>
+                    </td>
+                  
+                </tr>
+            </table>
+         
         </div>
-    </article><article id="article-three" class="article-three">
-        <div class="img-wrap">
-            <a href="#" data-featherlight="http://www.ladiesgadgets.com/wp-content/uploads/2011/10/Cloud-Database-Made-Simple-With-Xeround.png">
-                <img alt="Microsfot Azure SQL Couch db" src="http://www.ladiesgadgets.com/wp-content/uploads/2011/10/Cloud-Database-Made-Simple-With-Xeround.png">
-            </a>
-        </div>
-        <div class="p-wrap">
-            <h2>Database</h2>
-            <hr>
-            <p>
-                NoSQL Database Design With CouchDB;  Database Support & Service by Top Certified SQL Server Experts; Oracle Database Cloud Service provides the power and flexibility of the Oracle Database in the cloud, either self-managed or fully-managed by Oracle. SQL T-SQL Mappings, Custom Repository Solutions, fast server response times! Entity Framework O/rm mappings; View Model, Model set-up! Web-API integration for various JavaScript platforms AngularJS, and KnockoutJS.
-                <span class="read-more">more...</span>
-            </p>
-        </div>
-    </article>
 
-    <!--
-    Web
-    -->
-    <section class="section-title web">
-        <h3 id="web">Web Samples</h3>
-    </section>
-    <article id="article-seven" class="article-seven">
-        <div class="img-wrap">
-            <a href="https://www.directcapital.com/WhatWeFinance" target="_blank"><img alt="a clean modern mobile friendly website for a vacation company" src="~/Images/direct.png"></a>
-        </div>
-        <div class="p-wrap">
-            <h2 class="hidden-sm hidden-xs">Direct Capital</h2>
-            <h2 class="hidden-md hidden-lg" style="font-size: 1em;  font-weight: 700;">Direct Capital</h2>
-            <hr>
+        <div class="col-xs-6 col-md-4">
+            <h2>
+                Blog
+            </h2>
             <p>
-                Consultant at <a href="https://www.directcapital.com/WhatWeFinance" target="_blank">Direct Capital </a>
-                SEO Engine provides page rank via a template repository, using a template layout for driving small and mid-sized businesses with fast and easy access to the capital they need to grow and prosper. With a blazing fast online lending platform that delivers 30-day to 7-year financing at competitive prices, Direct Capital has lent $2.25 billion to over 80,000 businesses across a multitude of industries...and we like to think we're just getting started.
-                <span class="read-more">more...</span>
+                Please add yourself to my blog. It would be great to hear your comments and if you have anything you would like to with regard to my code then I would be glad to talk about it.
+                <a href="/" class="btn btn-link "style="">LogIn</a>
             </p>
         </div>
-    </article>
-    <article id="article-eight" class="article-eight">
-        <div class="img-wrap">
-            <a href="#" data-featherlight="https://neo.maine.gov/DOE/NEO/Dashboard">
-                <img alt="Web Solution Providing Services throughout the State of Maine." src="http://www.maine.gov/oit/images/OIT_09_11.jpg">
-            </a>
-        </div>
-        <div class="p-wrap">
-            <h2 class="hidden-sm hidden-xs">Maine DOE</h2>
-            <h2 class="hidden-md hidden-lg" style="font-size: 1em; font-weight: 700;">Maine DOE</h2>
-            <hr>
-            <p>Software Engineer Department of Education; Technology .NET MVC MV” Repository pattern; using TFS, SSMS, SQL 2012. Extreme Programming, Paired Programming – LEAN Agile Environment. NEO Standards, Definition of Done. <a href="https://neo.maine.gov/DOE/NEO/Dashboard" target="_blank">State Of Maine Dashboard</a><span class="read-more">more...</span>
-        </div>
-    </article>
-    <article id="article-nine" class="article-nine">
-        <div class="img-wrap">
-            <a href="#" data-featherlight="http://www.alexanderproudfoot.com/home.aspx">
-                <img alt="a bright blue website with colourful images of futuristic 3d printed cars" src="http://ir11.mcgreports.com/media/jpg/Alexander_Proudfoot_Logo.jpg">
-            </a>
-        </div>
-        <div class="p-wrap">
-            <h2 class="hidden-sm hidden-xs">ProudFoot Pulse</h2>
-            <h2 class="hidden-md hidden-lg" style="font-size: 1em;  font-weight: 700;">ProudFoot Pulse</h2>
-            <hr>
-            <p>
-                VB6 WPF - Internal risk assessment software providing a results based effort on health and opportunity across an enterprise. A Ten Unit program with Core being the Enterprise and its units being targeted for risk analysis, health, opportunity with area's for improvement.
+    </div>
 
-                <a href="http://www.alexanderproudfoot.com/home.aspx" target="_blank">Alexander Proudfoot Landing Page</a><span class="read-more">more...</span>
-            </p>
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row" style="padding-top: 5%;">
+        <div class="col-xs-12 col-md-4 text-center" style="padding-bottom: 50px;">
+            <h2>Generic Repository</h2>
+            <div class="button wrap"  >
+                <div class="btn btn-default " onclick="location.href='@Url.Action("Generic Repository", "Home")'"><span style="font-size: 3em;"class="glyphicon glyphicon-barcode">  </span></div>
+            </div>
         </div>
-    </article>
-    <article id="article-ten" class="article-ten">
-        <div class="img-wrap">
-            <a href="#" data-featherlight="http://www.mylawnquote.com/">
-                <img alt="a bright blue website with colourful images of futuristic 3d printed cars" src="~/Images/mylawn.png">
-            </a>
+        <div class="col-xs-12 col-md-4 text-center" style=" padding-bottom: 50px;">
+            <h2>Web Forms</h2>
+            <div class="button wrap" >
+                <div class="btn btn-default" onclick="location.href='@Url.Action("Web Forms", "Home")'"><span style="font-size: 3em; " class="glyphicon glyphicon-folder-open">  </span></div>
+            </div>
         </div>
-        <div class="p-wrap">
-            <h2 class="hidden-sm hidden-xs">My Lawn Quote</h2>
-            <h2 class="hidden-md hidden-lg" style="font-size: 1em;  font-weight: 700;">My Lawn Quote</h2>
-            <hr>
-            <p>
-                C# ASP SQL - To An MVC WebAPI AngularJS rebuild using CouchDB NoSQL! Increase performance, customized SEO Metrics using templates to architect the footprint, thus saving development time and overall production costs.
+        <div class="col-xs-12 col-md-4 text-center" style="padding-bottom: 50px;">
+            <h2>Art</h2>
+            <div class="button wrap" >
+                <div class="btn btn-default " onclick="location.href='@Url.Action("Art", "Home")'"><span style="font-size: 3em; " class="glyphicon glyphicon-menu-up">  </span></div>
+            </div>
+        </div>
+      
+    </div>
+    <div class="xs-12" style=" padding-bottom: 50px;">
+        <div class="dropdown">
+            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                social media
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li class="fa fa-twitter-square" style="padding-left: 15px;"> <a href="#"> Twitter</a></li>
+                 
+                <li style="padding-left: 15px;">
+                    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                    <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/john-aldrin-0920338b" data-format="hover" data-text="John Aldrin">
+                    </script>
+                </li>
+            </ul>
+        </div>
+  
+    </div>
+</div>
+<div class="container-fluid" style="width: 100%; background-color: #000; height:50px;">
 
-                <a href="http://www.mylawnquote.com" target="_blank">MyLawnQuote.com</a><span class="read-more">more...</span>
-            </p>
-        </div>
-    </article>
-</body>
+</div>
