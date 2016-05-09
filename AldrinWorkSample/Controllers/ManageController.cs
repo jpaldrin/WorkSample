@@ -1,6 +1,12 @@
-﻿using System;
+﻿using AldrinWorkSample.App_Start;
+using AldrinWorkSample.Model;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -325,7 +331,7 @@ namespace AldrinWorkSample.Controllers
             }
         }
 
-        private async Task SignInAsync(ApplicationUser user, bool isPersistent)
+        private async Task SignInAsync(IdentityModels.ApplicationUser user, bool isPersistent)
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ExternalCookie, DefaultAuthenticationTypes.TwoFactorCookie);
             AuthenticationManager.SignIn(new AuthenticationProperties { IsPersistent = isPersistent }, await user.GenerateUserIdentityAsync(UserManager));
