@@ -1,2 +1,3 @@
 # WorkSample
-Open code where I am adding various tutorials I've completed while not understanding C# at all...  
+
+See opn samples of applications please. 
